@@ -1,6 +1,5 @@
 {
-    // TODO: set name
-    "name": "rocketfellows/<country>-vat-number-format-validators-config",
+    "name": "rocketfellows/ie-vat-number-format-validators-config",
     "authors": [
         {
             "name": "Arslan Imamutdinov",
@@ -11,8 +10,7 @@
     "require": {
         "php": ">=7.4",
         "rocketfellows/specific-country-vat-number-format-validators-config": "1.0.0",
-        // TODO: require vat format validator package
-        "rocketfellows/<country>-vat-format-validator": "1.0.0"
+        "rocketfellows/ie-vat-format-validator": "1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
@@ -22,14 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            // TODO: set namespace
-            "rocketfellows\\<country>VatNumberFormatValidatorsConfig\\": "src/"
+            "rocketfellows\\IEVatNumberFormatValidatorsConfig\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            // TODO: set namespace
-            "rocketfellows\\<country>VatNumberFormatValidatorsConfig\\tests\\": "tests/"
+            "rocketfellows\\IEVatNumberFormatValidatorsConfig\\tests\\": "tests/"
         }
     }
 }
